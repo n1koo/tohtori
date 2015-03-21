@@ -1,0 +1,4 @@
+/config/settings.yml
+/config/secrets.json
+.bundle
+vendor/

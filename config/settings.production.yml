@@ -1,0 +1,17 @@
+production:
+  adapters:
+    slack: 
+      token: ''
+  robot:
+    log_level: info
+    adapter: slack
+  handlers:
+    github:
+      default_org: koodiklinikka
+      access_token: ''
+      default_team_slug: 'members'
+    google_images:
+      safe_search: :off
+    animate:
+      safe_search: :off
+

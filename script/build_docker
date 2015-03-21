@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ejson --keydir=$HOME/.ejson decrypt ../config/secrets.production.ejson > ../config/secrets.json
+
+docker build -t tohtori_bot ../.
+
+rm -rf ../config/secrets.json

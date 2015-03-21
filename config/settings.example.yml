@@ -1,0 +1,37 @@
+development:
+  adapters:
+    shell:
+      private_chat: true
+    slack: 
+      token: ""
+  robot:
+    log_level: debug
+    adapter: shell
+  handlers:
+    github:
+      default_org: koodiklinikka
+      access_token: ''
+      default_team_slug: 'members'
+    google_images:
+      safe_search: :off
+    animate:
+      safe_search: :off
+test:
+  adapters:
+    shell:
+      private_chat: true
+    slack: 
+      token: ""
+  robot:
+    log_level: debug
+    adapter: shell
+  handlers:
+    github:
+      default_org: koodiklinikka
+      access_token: ''
+      default_team_slug: 'members'
+    google_images:
+      safe_search: :off
+    animate:
+      safe_search: :off
+
